@@ -6,7 +6,7 @@ Chart.defaults.global.defaultFontColor = '#858796';
 async function fetchWaterLevelData() {
     try {
         // Fetch data from the API
-        const response = await fetch('https://csfpiot.csfp.io/csfpiot/v1/api/waterlevel/get?fbclid=IwY2xjawFd18BleHRuA2FlbQIxMAABHbKTqLCPdqFWHS14DlqnW7pI9Xgp2p7IryseUPEps6L-utycef0HIvMk3A_aem_mUQw7Hjdtfrc88T5Bm6q1Q');
+        const response = await fetch('https://iot.csfp.io/csfpiot/v1/api/waterlevel/get?fbclid=IwY2xjawFd18BleHRuA2FlbQIxMAABHbKTqLCPdqFWHS14DlqnW7pI9Xgp2p7IryseUPEps6L-utycef0HIvMk3A_aem_mUQw7Hjdtfrc88T5Bm6q1Q');
         const data = await response.json();
 
         // Check if data is available
